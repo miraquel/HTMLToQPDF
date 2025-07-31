@@ -46,7 +46,7 @@ namespace HTMLToQPDF.Components
             { "ol", c => c.PaddingLeft(30) }
         };
 
-        public float ListVerticalPadding { get; set; } = 12;
+        public float ListVerticalPadding { get; set; }
 
         public string HTML { get; set; } = "";
 
